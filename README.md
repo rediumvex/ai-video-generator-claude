@@ -85,9 +85,9 @@ You can also use the interactive installer:
 
 ```bash
 cd ai-video-generator
-chmod +x install.sh
-./install.sh          # Pick which skills to install
-./install.sh --all    # Install everything
+python install.py          # Pick which skills to install
+python install.py --all    # Install everything
+python install.py --list   # Preview available skills
 ```
 
 ---
