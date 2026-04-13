@@ -1,4 +1,9 @@
-# AI Video Generator — Claude Skill
+<img width="1080" height="1350" alt="telegram-cloud-document-4-5974547813680291996" src="https://github.com/user-attachments/assets/d3ebcec5-91ec-4e4e-9117-8774f5e8b34d" />
+
+<p align="center">
+  <strong>Seedance 2.0 Creator Skills</strong><br>
+  <em>10 AI Video Prompt Engineering Skills for Creators & Business Owners</em>
+</p>
 
 > **10 prompt engineering skills that turn Claude into a cinematic video director for Seedance 2.0 on Higgsfield.** You describe an idea — the skill architects a 15-25 line production-grade prompt with exact timing, camera angles, lighting setup, and sound design. Paste into Higgsfield, get studio-quality video.
 
