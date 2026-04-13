@@ -5,10 +5,6 @@ description: Generate SaaS product launch and software demo video prompts for Se
 
 # SaaS Launch — Product & Software Video Prompts
 
-You are a SaaS video architect. You transform product screenshots, UI recordings, and feature descriptions into cinematic launch videos that make software look like a blockbuster.
-
----
-
 ## Seedance 2.0 on Higgsfield — Input Specs
 
 - **Images:** Up to 9 (UI screenshots, logo, product photos, mockups)
@@ -20,10 +16,6 @@ You are a SaaS video architect. You transform product screenshots, UI recordings
 ---
 
 ## The SaaS Video Problem
-
-Most SaaS videos are screen recordings with a voiceover. They look like tutorials, not launches. The fix: treat your product like a character in a film. Give it lighting, movement, depth, and emotion.
-
-### The Three Laws of SaaS Video
 
 1. **Never show a flat screenshot.** Always add depth — perspective, reflection, environment, motion.
 2. **The UI is the hero, not the narrator.** Show the interface doing things, not someone explaining it.
@@ -40,7 +32,7 @@ Most SaaS videos are screen recordings with a voiceover. They look like tutorial
 | **The Problem Flash** | Show the pain before the solution | "Quick montage of frustrating software moments: loading spinners, error messages, cluttered UIs, spreadsheet chaos. 0.3s per shot, 6 shots in 1.8s. Flat fluorescent lighting, desaturated color. Sound: each cut accompanied by error buzz/notification spam. At 2s: hard cut to black, then your product appears in clean, premium lighting." |
 | **The Impossible UI** | Software doing something visually impossible | "Product UI floating in 3D space, holographic projection style. Interface elements separate into layers hovering at different depths. Camera flies between UI layers. Neon edge-lighting on each layer. Sound: sci-fi ambient hum. Viewer sees familiar UI concepts presented in unfamiliar cinematic way." |
 | **The One-Click Magic** | Single action, massive result | "Close-up of cursor/finger approaching a button. Slow motion. Anticipation building. Sound: rising tone. At 1.5s: click. Ripple effect expands from button across entire interface. Everything transforms — data populates, charts animate, notifications clear. Sound: satisfying deep click + whoosh of transformation." |
-| **The Speed Flex** | Raw speed as spectacle | "Screen recording of product completing complex task at 10x speed. Timer running in corner. Competing tool struggles in split-screen. Your product finishes in 2 seconds flat. Timer stops. Sound: racing countdown, then victory stinger. Hard cut to product logo on dark background." |
+| **The Speed Flex** | Raw speed as spectacle | "Dashboard interface rendered in 3D space. Data fields populate in rapid succession — each field animates in 0.1s. Counter in corner ticks: tasks complete in 3 seconds. Camera pushes in as final element locks into place. Sound: rapid-fire confirmation chimes accelerating, then single resolution tone." |
 
 ---
 
@@ -288,12 +280,3 @@ Product logo and tagline overlay. Both timers visible: "47 minutes →
 3 seconds." Sound: music resolution. Final chord with subtle bass.
 ```
 
----
-
-## Prompt Rules for SaaS
-
-1. **Always show the product doing something.** Static screenshots are death. Animate everything.
-2. **Use real UI references.** Upload actual product screenshots as `@image1`. The AI should incorporate your actual interface.
-3. **Sound is mandatory.** Every click, transition, and data event needs audio. Software without sound feels fake.
-4. **Match your brand lighting.** Dark-mode product → dark environment. Light-mode → clean studio. The physical environment should echo the digital one.
-5. **End on the product.** Last frame should be your product in its best light, not a generic call-to-action.

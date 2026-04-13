@@ -34,13 +34,7 @@ Transform podcast audio into cinematic visual content using Seedance 2.0 on Higg
 
 ---
 
-## Philosophy: Why Waveform Audiograms Are Dead
-
-The standard audiogram — a static image with a bouncing green waveform bar — was a workaround from an era before video generation. It answered the question "how do we show audio on social?" with the laziest possible answer: show the audio itself. A waveform is data. It is not a story.
-
-The problem is not technical — it is conceptual. An audiogram treats the audio as the product and the visual as a footnote. Seedance 2.0 inverts this. The visual becomes the primary experience. The audio is the soul; the video is the body.
-
-**The core shift:**
+## Philosophy
 
 | Old model (audiogram) | New model (podcast visual) |
 |---|---|
@@ -50,12 +44,6 @@ The problem is not technical — it is conceptual. An audiogram treats the audio
 | Generic brand colors | Lighting and atmosphere matched to tone |
 | Passive viewing | Active emotional engagement |
 | Optimized for "audio on" | Compelling even on mute |
-
-**Why this matters for Seedance 2.0:**
-
-Higgsfield's Seedance 2.0 generates video from text descriptions at cinematic quality. Every element — lighting, camera angle, subject expression, environment, movement — is crafted by the prompt. This means a 60-second podcast clip can be visualized as a moody single-source-lit close-up, a slow-motion environmental metaphor, or a split-screen conversation reconstruction. The constraint is only imagination and prompt precision.
-
-**The guiding principle:** the viewer should understand the emotional content of the clip within the first 2 seconds, even with the sound off.
 
 ---
 
@@ -256,6 +244,13 @@ Speaker name and show/platform title appear within the first 5 seconds and again
 
 **Typography rule:** speaker ID font should be same family as quote text, lower weight (regular vs. bold). Never two competing display fonts.
 
+### Running Captions
+For podcast clips on TikTok/Reels, burned-in subtitles are expected:
+- Position: center-bottom, above platform UI (20% from bottom edge)
+- Style: bold sans-serif, white with black outline or dark background bar
+- Timing: word-by-word or phrase-by-phrase sync to audio
+- Prompt phrasing: "Burned-in subtitle text appears word-by-word synced to speech rhythm. Bold white sans-serif, center-bottom positioning above platform UI. Dark semi-transparent bar behind text for legibility."
+
 ### Timestamp Markers
 
 For longer clips with multiple audio files, timestamp markers orient the viewer within the episode. These are subtle — a small badge in the upper-right, episode time in small sans-serif. They add credibility (this is a real episode worth finding) without competing with the primary visual.
@@ -350,7 +345,7 @@ Color grade: desaturated, cool blue-green shadows, low contrast in highlights. T
 
 ## Prompt Rules for Podcast Visualization
 
-1. **Describe emotion, not decoration.** Every visual element must justify itself by serving the emotional content of the audio. If a particle effect does not reinforce tone, remove it.
+1. **Every visual element must serve the emotional content of the audio — no decorative shots without emotional purpose.**
 
 2. **Never use the word "waveform" in a prompt.** A waveform is a technical representation of audio data. A Seedance 2.0 podcast visual is a cinematic translation of meaning. Use language like "acoustic particle field," "resonant light behavior," "sound-reactive atmospheric texture" — or, better, describe what the emotion looks like rather than what the sound looks like.
 

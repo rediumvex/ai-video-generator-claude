@@ -5,8 +5,6 @@ description: Generate online course and coaching program promotional video promp
 
 # Course Promo — Educational Product Video Prompts
 
-A complete system for generating high-converting promotional video prompts for online courses, coaching programs, masterclasses, webinars, and educational products using Seedance 2.0 on Higgsfield.
-
 ---
 
 ## Seedance 2.0 Input Specifications
@@ -35,26 +33,26 @@ Seedance 2.0 accepts multi-modal inputs and produces short-form cinematic video 
 
 ---
 
-## Philosophy — Why Course Promos Fail (and How to Fix Them)
+## Asset Checklist Before Writing Any Prompt
 
-Most course promotional videos fail for one of four reasons:
+Before generating a prompt, answer these questions:
 
-**1. They lead with the product, not the pain.**
-The viewer sees a laptop mockup and a course title before they feel anything. The model then generates a polished-but-empty visual. Fix: open every prompt with the student's emotional state before the course, not the course itself.
+- [ ] What is the course/program name and price point?
+- [ ] What is the primary platform (Instagram, YouTube, Facebook, email)?
+- [ ] What is the video duration target?
+- [ ] What assets are available? (List all images, videos, audio files with their @material tags)
+- [ ] Who is the target student? (One sentence description of their current painful state)
+- [ ] What is the single transformation promise? (One sentence: "Go from X to Y in Z time")
+- [ ] What is the CTA action? (Register, buy, apply, watch, join — pick one)
+- [ ] Is there a deadline or urgency element? (Enrollment closing, live event date, bonus expiring)
 
-**2. They describe features instead of futures.**
-"12 modules, 47 lessons, lifetime access" — none of this creates desire. "Your first client call with unshakeable confidence" does. Fix: anchor every visual beat to an outcome the student will live, not a feature they will receive.
+---
 
-**3. The visual style contradicts the authority positioning.**
-A $2,000 coaching program shot with casual handheld-style footage signals "amateur." A $97 beginner course shot with cold corporate lighting signals "intimidating." Fix: match lighting and camera language to the price point and emotional tone of the offer.
+## Philosophy
 
-**4. There is no identifiable 2-second hook.**
-Autoplay video on social has no audio for the first moment. If the first frame does not communicate a specific tension or curiosity gap in pure visuals, the viewer scrolls. Fix: design the first 2 seconds as a standalone silent image with a readable emotional signal.
+Every course promo follows one arc:
 
-**The formula that works:**
 `Hook (tension/curiosity) → Evidence (authority/social proof) → Transformation (the future state) → CTA (one clear next step)`
-
-Every prompt in this skill follows this arc.
 
 ---
 
@@ -410,41 +408,21 @@ over final 2 seconds — leaving the CTA in silence for maximum readability.
 
 ## Prompt Construction Rules
 
-Follow these rules every time you write a Seedance 2.0 course promo prompt.
+**Rule 1 — Write the emotional target, not just the visual.**
+At least once per section, state: "The viewer should feel: [specific emotion]." This directly influences Seedance 2.0's color, pacing, and performance choices.
 
-**Rule 1 — Timestamp every shot.**
-Never write a floating description without a `[0:00–0:00]` marker. Seedance 2.0 uses temporal structure to determine pacing. Missing timestamps = unpredictable output.
+**Rule 2 — CTA is always a hard cut.**
+Soft fades reduce click-through. Always: "Hard cut to [background]. [CTA text]. [Duration held]."
 
-**Rule 2 — Specify the camera movement explicitly.**
-Do not write "dynamic shot" or "engaging footage." Write: "slow push-in from 95% scale to 100% scale over 3 seconds" or "static wide shot, no movement." Vague camera direction generates generic output.
-
-**Rule 3 — Name the lighting preset or describe it in full.**
-Reference the presets in this document by name (`Academy Clean`, `Moody Expert`, `Warm Workshop`) or paste the full lighting description. Never write "good lighting" or "professional lighting."
-
-**Rule 4 — Specify text overlay typography in every shot that has text.**
-Include: typeface style (serif/sans/italic), weight (regular/bold), size relative to frame, color, position (upper/lower/center + left/center/right third), and entrance animation. Missing any of these produces random typographic choices.
-
-**Rule 5 — Reference every asset by its @material tag.**
-Even if you are describing the image from memory, include the tag so Seedance 2.0 anchors the generation to the provided asset. `@material[image1]` beats "the instructor photo."
-
-**Rule 6 — Write the emotional target, not just the visual description.**
-At least once per major section, state: "The viewer should feel: [specific emotion]." This phrase directly influences Seedance 2.0's color, pacing, and performance direction choices.
-
-**Rule 7 — End every prompt with the CTA formatted as a hard cut.**
-Soft fades on CTAs reduce click-through. Hard cuts create urgency and finality. Always specify: "Hard cut to [background]. [CTA text]. [Duration held]."
-
-**Rule 8 — Constrain music to three parameters.**
-Always specify: BPM, key or emotional tone, and the moment it enters. Example: "Music enters at 0:02, 90 BPM, minor key resolving to major, emotional tone: quiet determination." Omitting these produces random audio pacing.
-
-**Rule 9 — Match video length to platform placement.**
+**Rule 3 — Match video length to platform.**
 - Instagram/TikTok Stories or Reels: 6–10 seconds
-- YouTube pre-roll: 10–15 seconds (skip button appears at 5s — hook must land before then)
+- YouTube pre-roll: 10–15 seconds (hook before 5s skip button)
 - Facebook Feed: 8–12 seconds
 - Webinar landing page header: 12–15 seconds (looping)
 - Email header GIF export: 4–6 seconds
 
-**Rule 10 — Chain generations for complete videos.**
-One Seedance 2.0 generation = 4–15 seconds. For a 30-second ad, write 3 separate prompts (Hook + Body + CTA) and chain them in the Higgsfield timeline editor. Each prompt should work as a standalone piece that also flows into the next.
+**Rule 4 — Chain generations for complete videos.**
+One generation = 4–15 seconds. For a 30-second ad, write 3 separate prompts (Hook + Body + CTA) and chain them in the Higgsfield timeline editor.
 
 ---
 
@@ -475,17 +453,3 @@ Sound: [music resolution or silence instruction].
 
 ---
 
-## Asset Checklist Before Writing Any Prompt
-
-Before generating a prompt, answer these questions:
-
-- [ ] What is the course/program name and price point?
-- [ ] What is the primary platform (Instagram, YouTube, Facebook, email)?
-- [ ] What is the video duration target?
-- [ ] What assets are available? (List all images, videos, audio files with their @material tags)
-- [ ] Who is the target student? (One sentence description of their current painful state)
-- [ ] What is the single transformation promise? (One sentence: "Go from X to Y in Z time")
-- [ ] What is the CTA action? (Register, buy, apply, watch, join — pick one)
-- [ ] Is there a deadline or urgency element? (Enrollment closing, live event date, bonus expiring)
-
-With these eight answers, you have everything needed to fill the prompt skeleton and generate a production-ready Seedance 2.0 course promotional video.

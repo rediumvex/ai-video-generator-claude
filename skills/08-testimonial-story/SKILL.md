@@ -5,8 +5,6 @@ description: Generate customer testimonial and social proof video prompts for Se
 
 # Testimonial Story — Customer Social Proof Video Prompts
 
-You are a social proof cinematographer. You transform customer quotes, results data, and success stories into cinematic videos that make real experiences feel as compelling as Hollywood storytelling.
-
 ---
 
 ## Seedance 2.0 on Higgsfield — Input Specs
@@ -21,23 +19,7 @@ You are a social proof cinematographer. You transform customer quotes, results d
 
 ## Why Traditional Testimonials Fail
 
-Most testimonial videos are a customer sitting in front of a camera saying "I really like this product." They perform zero persuasion. They look cheap, they feel scripted, and they get scrolled past in under two seconds.
-
-The problem is structural. Talking-head testimonials ask viewers to trust a stranger. Cinematic social proof makes viewers feel the transformation for themselves.
-
-### The Three Failures of Boring Testimonials
-
-1. **The Talking Head.** A person speaks directly to camera in flat lighting against a plain wall. Nothing moves, nothing breathes. The video looks like a deposition, not a story.
-2. **The Quote Screenshot.** Text on a plain background with a five-star rating. No motion, no emotion, no proof. It looks pasted together in five minutes because it was.
-3. **The Metrics Dump.** Numbers listed without context or emotion. "47% increase in revenue" means nothing without showing what that looks like in a person's life.
-
-### How to Make Social Proof Cinematic
-
-Cinematic testimonials do three things traditional ones never do:
-
-- **Lead with result, not claim.** Show the outcome before the customer speaks. Let the evidence establish credibility, then let the voice confirm it.
-- **Make the emotion visible.** A genuine reaction — relief, surprise, excitement — is more persuasive than any statistic. Frame it, light it, let it breathe.
-- **Give the quote a visual home.** Typography, motion, and composition transform a quote from a caption into a statement. Words that float in light carry more weight than words in a text box.
+Traditional testimonials fail because they're static talking heads in flat lighting. Cinematic social proof makes viewers feel the transformation. Show the result first, the emotion second, the person third.
 
 ---
 
@@ -177,12 +159,12 @@ SPLIT JOURNEY TEMPLATE:
 or states.
 
 Top (before): slightly desaturated. Environment is cluttered or stressful.
-Person's movement is hurried, tense. Color grade: cooler, 5500K or less.
+Person's movement is hurried, tense. Color grade: cool, 6000K+.
 Actions: multiple steps, visible friction. Camera: slight handheld to
 convey instability.
 
 Bottom (after): full color saturation. Environment is clean, ordered.
-Person's movement is relaxed, deliberate. Color grade: warm, 6500K.
+Person's movement is relaxed, deliberate. Color grade: warm, 3200K.
 Actions: single step, effortless. Camera: locked off, stable.
 
 Dividing line: can be a hard edge, a gradient, or a thin branded line
@@ -457,7 +439,7 @@ barely perceptible movement. Sound: deep, resonant single note. Ambient
 silence otherwise. The number is given space to land.
 
 2-3s: Dissolve transition. Number dissolves into a face — the customer.
-@image1 used as reference for customer portrait or as direct image source.
+@material[image1] used as reference for customer portrait or as direct image source.
 Subject seated slightly right of center in warm interview framing, looking
 left-of-camera. Background: soft-bokeh office environment. Lighting: warm
 three-point interview setup, key light from left, slight rim light separating
@@ -480,7 +462,7 @@ but felt. Music bed adds second element (pad or second instrument) at 7s.
 
 10-13s: Camera pulls back slightly. Product screenshot or UI appears in
 background on desk or screen, associating the result with the product.
-@image2 used as product UI reference. Soft focus on product UI — it is
+@material[image2] used as product UI reference. Soft focus on product UI — it is
 present but the customer remains the focal point.
 
 Sound: music becomes slightly fuller. Voice continues or concludes.
@@ -491,8 +473,8 @@ below lower-third — animated left to right, 0.15s per star stagger, gold.
 Platform attribution beneath stars. Product logo in upper-right corner,
 small, fades in at 14s. Music resolves on final second. Warm, complete.
 
-Material references: @image1 for customer photo, @image2 for product
-screenshot, @audio1 for customer voice recording if available.
+Material references: @material[image1] for customer photo, @material[image2] for product
+screenshot, @material[audio1] for customer voice recording if available.
 ```
 
 ### Example 2: Consumer Review — The Emotion Capture (10s)
@@ -512,7 +494,7 @@ before language.
 
 1.5s: Camera pulls back slowly. Person becomes visible in context —
 seated comfortably, the product visible in their hands or on the surface
-near them. @image1 used as product reference. Natural, candid framing.
+near them. @material[image1] used as product reference. Natural, candid framing.
 Documentary natural lighting treatment: window light from one side,
 slight asymmetry, real and earned.
 
@@ -526,7 +508,7 @@ third but large — almost subtitle-sized but treated as a design element.
 
 5-7s: Product comes into focus. Camera drifts slightly to include product
 more centrally. Person's hands interact with it naturally. Light catches
-the product. @image1 product reference at this framing moment. The product
+the product. @material[image1] product reference at this framing moment. The product
 is shown in use, in life — not in a studio.
 
 Sound: music bed grows subtly +3dB from 5-7s. Not louder, richer — a second
@@ -540,8 +522,8 @@ below. Camera finishes its drift, composition settles.
 9-10s: Hold on the settled frame. Music resolves. Room tone continues.
 Warm, complete, real.
 
-Material references: @image1 for product (for visual reference/integration).
-@audio1 for customer audio if available. @image2 for product logo.
+Material references: @material[image1] for product (for visual reference/integration).
+@material[audio1] for customer audio if available. @material[image2] for product logo.
 ```
 
 ### Example 3: SaaS Case Study — The Data Visualization (12s)
@@ -573,16 +555,16 @@ felt more than heard.
 
 At the endpoint of the line (7s): the final value appears — a bold number
 floating adjacent to the chart endpoint. Large, white, clear. Below it in
-smaller text: the timeframe. @image1 if a real chart/data visualization
+smaller text: the timeframe. @material[image1] if a real chart/data visualization
 is provided as reference.
 
 7-9s: Hold on the chart with the result visible. Camera rests. Sound:
 music bed settles at this moment — a two-bar loop, warm, clean. Below
 the chart, customer attribution fades in: "[Company Name]", small logo
-mark if available via @image2. Customer photo in small circle avatar
+mark if available via @material[image2]. Customer photo in small circle avatar
 to left of attribution.
 
-9-11s: Customer voice enters (if available via @audio1). One or two
+9-11s: Customer voice enters (if available via @material[audio1]). One or two
 sentences — the human confirmation of the chart's story. A single
 quote line appears in large typography, one phrase, above the chart.
 Bold, white. The data told the story; the voice confirms it.
@@ -591,8 +573,8 @@ Bold, white. The data told the story; the voice confirms it.
 Music resolves. Final composition: data, attribution, product logo — three
 elements of proof in one clean frame.
 
-Material references: @image1 for actual data chart or graph as visual
-reference. @image2 for company/customer logo. @audio1 for customer voice.
+Material references: @material[image1] for actual data chart or graph as visual
+reference. @material[image2] for company/customer logo. @material[audio1] for customer voice.
 ```
 
 ### Example 4: Review Montage — The Flood of Proof (8s)
@@ -644,8 +626,8 @@ riding the rhythm of the cuts. Faces and numbers intercut like heartbeats.
 below. "Join 4,847 customers." Music final note sustains and releases.
 Clean, complete.
 
-Material references: @image1-@image6 for customer photos (different people).
-@image7 for product logo. All faces should represent diversity in age,
+Material references: @material[image1]-@material[image6] for customer photos (different people).
+@material[image7] for product logo. All faces should represent diversity in age,
 gender, and context.
 ```
 

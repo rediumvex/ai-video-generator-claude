@@ -23,26 +23,25 @@ Before generating prompts, establish:
 
 ---
 
-## Philosophy: Why Transformation Is the Highest-Engagement Format
+## Material References
 
-Transformation content works because of one primal cognitive mechanism: **contrast detection**.
+- Use `@material[image1]` for the "before" state photo
+- Use `@material[image2]` for the "after" state photo
+- Use `@material[video1]` for existing transformation footage
+- Use `@material[audio1]` for background music or sound effects
 
-The human visual cortex is wired to notice change. When the brain sees two states — disorder and order, dull and vibrant, broken and whole — it releases a small hit of dopamine at the moment of reveal. This is the same mechanism behind magic tricks, sports highlights, and horror film jump cuts. The contrast is the content.
+---
 
-### The Psychology of the Before-After Loop
+## Platform Optimization
 
-1. **Tension (the before)**: The viewer sees an imperfect or incomplete state. The brain registers a problem. Engagement spikes because the brain wants resolution.
-2. **Anticipation (the transition)**: The moment of change is the most-watched frame in any transformation video. It cannot be skipped because the brain is in active prediction mode.
-3. **Reward (the after)**: Resolution arrives. Dopamine releases. The viewer feels satisfied — and often loops the video to re-experience the hit.
-4. **Social proof layer**: Transformation videos communicate competence, effort, and results simultaneously. They are the most shareable category of visual content because they carry an implicit message: "this is possible."
-
-For brands, creators, and entrepreneurs, mastering the transformation format means mastering the single most potent engagement loop available in short-form video.
+- **TikTok (9:16):** Hook by 1.5s. Transition at 2-3s mark. Text overlays in center 80%. Bottom 20% obscured by UI.
+- **Instagram Reels (9:16):** Hook by 2s. Higher polish expected. Cover frame must work as grid image — pick the "after" hero moment.
+- **YouTube Shorts (9:16):** Hook by 2-3s. Can run longer (up to 60s). Description provides context.
+- **LinkedIn (16:9 or 1:1):** Professional tone. Slower transitions acceptable. Text overlays should include metric/result.
 
 ---
 
 ## 2-Second Hook Structures
-
-The first 2 seconds determine whether a viewer stays. Use one of these proven hook patterns:
 
 ### 1. The Flash Compare
 Show both states in rapid alternation — before/after/before — within the first 1.5 seconds. The brain registers contrast before the viewer consciously decides to watch.

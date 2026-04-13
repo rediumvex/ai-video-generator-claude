@@ -5,10 +5,6 @@ description: Generate personal brand and founder story video prompts for Seedanc
 
 # Personal Brand — Founder & Creator Video Prompts
 
-You are a personal brand cinematographer. You transform founders, creators, and entrepreneurs into on-screen authorities using cinematic framing, lighting, and movement that communicates competence, trust, and aspiration.
-
----
-
 ## Seedance 2.0 on Higgsfield — Input Specs
 
 - **Images:** Up to 9 (headshots, workspace photos, brand assets, lifestyle shots)
@@ -19,22 +15,6 @@ You are a personal brand cinematographer. You transform founders, creators, and 
 
 ---
 
-## Personal Brand Video Philosophy
-
-People don't follow brands. They follow people. Personal brand video has one job: make the viewer think "this person knows what they're doing, and I want to learn from them."
-
-### The Authority Triangle
-
-Every personal brand video must communicate three things:
-
-1. **Competence** — This person is skilled (show the work, the tools, the results)
-2. **Relatability** — This person is human (show imperfection, personality, real environment)
-3. **Aspiration** — This person has what I want (show the lifestyle, the outcomes, the status)
-
-The balance between these three determines the type of personal brand video.
-
----
-
 ## The 2-Second Hook for Personal Brand
 
 | Hook | Authority Signal | Prompt Template |
@@ -42,7 +22,7 @@ The balance between these three determines the type of personal brand video.
 | **The Gaze** | Confidence, command | "Close-up of subject's face. Strong single key light from side. Eyes look off-camera, then snap to direct camera eye contact at 1s. Head tilts slightly forward. No smile — serious, focused. Sound: room ambient, then low bass pulse on eye contact. Message: 'I see you.'" |
 | **The Environment** | Status, success | "Wide shot of premium workspace/studio/office. Camera slowly pushes in. Every detail communicates success: clean desk, quality equipment, considered design. Subject enters frame at 1.5s or is revealed by camera movement. Sound: ambient, sophisticated." |
 | **The Action** | Competence, skill | "Subject mid-action — typing, sketching, building, presenting. Camera catches them in flow state. They don't acknowledge the camera. Shallow depth of field, available-light look. Sound: authentic environment audio — keyboard, pen on paper, ambient room. Voyeuristic, documentary feel." |
-| **The Walk** | Energy, momentum | "Subject walking toward camera in hallway/street/studio. Confident pace. Camera pulls back at matching speed, maintaining framing. Subject centered, background in motion blur. Sound: footsteps, ambient, subtle music building. Message: 'going somewhere.'" |
+| **The Walk** | Energy, momentum | "Subject walking toward camera in hallway/street/studio. Confident pace. Camera pulls back at matching speed, maintaining framing. Subject centered, background in motion blur. Sound: footsteps at 2 per second on hard surface, slight echo. At 1.5s ambient music begins — single bass note, building. Message: 'going somewhere.'" |
 
 ---
 
@@ -88,7 +68,9 @@ The most powerful personal brand camera move. Communicates: "this person is wort
 acceleration. Subject remains at same framing ratio as camera
 compensates. Slight depth-of-field shift as distance changes.
 Background compresses. Effect is subliminal — viewer doesn't notice
-the movement consciously but feels increasing intimacy."
+the movement consciously but feels increasing intimacy.
+0-2s: imperceptible movement. 2-4s: background begins compressing.
+4-6s: intimacy peaks. Sound: ambient builds subtly in parallel."
 ```
 
 ### The Documentary Track
@@ -99,7 +81,9 @@ Creates authenticity by mimicking doc-style camera work.
 jitter — human operator feel. Camera sometimes lags behind subject
 movement, catching up. Focus occasionally hunts then locks. Sound
 from on-camera microphone — room reverb, footsteps, ambient.
-This tells the viewer: this is real, unscripted, authentic."
+This tells the viewer: this is real, unscripted, authentic.
+Timing: camera lags 0.3s behind subject movement. Focus hunts at
+2s and 5s marks, locks within 0.2s."
 ```
 
 ### The Reveal Orbit
@@ -110,7 +94,9 @@ Shows the subject from multiple angles, communicating confidence.
 centered, possibly in slight motion (speaking, gesturing, working).
 Each angle reveals different environmental elements — bookshelf,
 window, equipment, awards. Consistent distance from subject.
-This communicates: 'I'm comfortable being seen from every angle.'"
+This communicates: 'I'm comfortable being seen from every angle.'
+0-2s: initial angle + environment element 1. 2-4s: 90° rotation,
+element 2 appears. 4-8s: remaining 90° reveals element 3-4."
 ```
 
 ---
@@ -265,12 +251,3 @@ so face is visible by the stop moment. Color: warm amber from behind,
 neutral fill from front.
 ```
 
----
-
-## Prompt Rules for Personal Brand
-
-1. **Show the person doing things, not posing.** Action communicates competence. Posing communicates insecurity.
-2. **Environment is story.** Every visible object should communicate something about who this person is.
-3. **Light from the work.** The best personal brand lighting comes from the tools of the trade — screens, desk lamps, workshop lights. It says "illuminated by the craft."
-4. **Sound must be real.** Authentic ambient audio > stock music. The sound of a real workspace builds more trust than any beat.
-5. **End on the person or their work, never on a generic CTA.** The call-to-action is the person themselves.

@@ -5,10 +5,6 @@ description: Generate scroll-stopping viral hook video prompts for Seedance 2.0 
 
 # Viral Hook — Scroll-Stopping Short-Form Video Prompts
 
-You are a viral video architect specializing in the first 2 seconds of short-form content. Every prompt you generate is engineered to stop the scroll, trigger curiosity, and force the algorithm to push the video.
-
----
-
 ## Seedance 2.0 on Higgsfield — Input Specs
 
 - **Images:** Up to 9 reference images (mood boards, product shots, brand assets)
@@ -23,8 +19,6 @@ You are a viral video architect specializing in the first 2 seconds of short-for
 
 ## The Attention Economy: Why 2 Seconds
 
-The algorithm tracks exactly when people stop watching. This is the math:
-
 - **0-2s:** The gate. If 50%+ bounce here, the video dies. If 90% stay, the algorithm promotes.
 - **2-5s:** Hook confirmation. Brain decides: worth my time or not.
 - **5-15s:** Engagement peak. Emotional beats, reveals, payoffs land here.
@@ -38,8 +32,6 @@ Videos with 80%+ completion get 2-3x algorithmic reach. Your hook determines eve
 
 ### 1. Pattern Interrupt — Break Reality
 
-The brain is a prediction machine. When something violates the expected pattern, attention locks.
-
 | Technique | Mechanism | Prompt Template |
 |---|---|---|
 | **Physics Break** | Objects defy gravity, water flows up, time reverses | "Open with [object] defying physics — floating upward, sliding in reverse, freezing mid-air. Camera steady, treating impossible action as mundane. First 0.8s shows normal expectation, 0.8-2s breaks it. No music, only ambient sound emphasizing the wrongness." |
@@ -47,8 +39,6 @@ The brain is a prediction machine. When something violates the expected pattern,
 | **Color Bomb** | Grayscale world gets sudden saturation | "Scene begins fully desaturated — gray, lifeless, muted. At 1.2s, single element ignites with saturated color [neon pink/electric blue/gold]. Color bleeds outward across frame over 0.8s. Hard bass hit synced to color moment." |
 
 ### 2. Curiosity Gap — Incomplete Information
-
-Show 60% of the story. The brain must watch to fill the gap.
 
 | Technique | Mechanism | Prompt Template |
 |---|---|---|
@@ -58,8 +48,6 @@ Show 60% of the story. The brain must watch to fill the gap.
 
 ### 3. Dopamine Trigger — Instant Reward
 
-Deliver a micro-hit of satisfaction in under 2 seconds.
-
 | Technique | Mechanism | Prompt Template |
 |---|---|---|
 | **Satisfying Motion** | ASMR-tier visual satisfaction | "Extreme close-up: [liquid pouring perfectly into glass / knife slicing through smooth surface / sand cascading in slow motion]. Macro lens, shallow depth of field. Sound design: crisp ASMR audio synced to motion. Slow motion at 0.5x speed. Warm golden lighting from side." |
@@ -67,8 +55,6 @@ Deliver a micro-hit of satisfaction in under 2 seconds.
 | **Kinetic Typography** | Words that move with impact | "Bold white text on black background. Words slam into frame one at a time, synced to beat. Each word creates micro screen-shake. Text: [provocative statement — 3-5 words max]. Camera pushes in slightly with each word. Bass-heavy sound design." |
 
 ### 4. Primal Attention — Evolutionary Triggers
-
-Hardwired responses that bypass conscious thought.
 
 | Technique | Mechanism | Prompt Template |
 |---|---|---|
@@ -103,7 +89,7 @@ Hardwired responses that bypass conscious thought.
 
 ### High-Engagement Setups
 
-**Neon Contrast** — 2.3x higher average watch time than flat lighting
+**Neon Contrast**
 ```
 "Dual-color neon lighting: [pink/cyan or orange/blue] from opposing sides.
 Hard shadows where colors meet. Subject's face split between warm and cool.
@@ -130,8 +116,6 @@ Background pure black between flashes."
 ---
 
 ## Sound Design for Hooks
-
-Sound is 50% of the hook. Platform users scroll with sound ON at higher rates than ever.
 
 ### The Sound Stack
 
@@ -160,6 +144,7 @@ Layer these elements for maximum impact:
 - Text overlays in safe zone (center 80% of frame)
 - Trending audio integration critical — use `@audio1` for trending sounds
 - Loop potential: last frame should visually connect to first frame
+- Loop template: "Final frame composition mirrors opening frame — same camera angle, same lighting, same subject position. Last 0.5s movement creates visual continuation into the first frame when video replays. Seamless loop point."
 
 ### Instagram Reels (9:16 vertical)
 - Hook at 2s (slightly more patient audience)
@@ -350,19 +335,3 @@ catches light rays). Contrast between ethereal slow-mo and aggressive
 fast-motion.
 ```
 
----
-
-## Prompt Construction Rules
-
-When generating prompts, always follow this structure:
-
-1. **Opening Frame** — Describe the first visual. What does the viewer see at frame zero?
-2. **Timeline Breakdown** — Beat-by-beat with timestamps (0-2s, 2-4s, etc.)
-3. **Camera Movement** — Specific technique, speed, direction for each segment
-4. **Lighting Setup** — Key, fill, rim, practicals, color temperature
-5. **Sound Design** — Layer by layer with timestamps synced to visual beats
-6. **Material References** — Where `@image1`, `@video1`, `@audio1` appear
-7. **Mood/Emotion** — The feeling the viewer should experience
-8. **Platform Notes** — Aspect ratio, safe zones, loop potential
-
-Never write vague prompts. Every second must be accounted for. Every camera move must have a purpose. Every sound must sync to a visual beat.

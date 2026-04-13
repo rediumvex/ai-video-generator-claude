@@ -38,10 +38,6 @@ Before generating prompts, gather the following from the user:
 
 ## 2. Philosophy — Why AI Avatars Are the Future of Scalable Content
 
-Human-led video content is the most persuasive medium available. But real humans are expensive, unavailable, inconsistent across shoots, and impossible to clone across ten markets in twelve languages simultaneously. AI avatars solve that constraint. They are always available, always on-brand, and endlessly reproducible.
-
-The shift happening now is not a replacement of human connection — it is a scaling of it. A well-designed AI avatar carries personality, warmth, and credibility at machine speed. Brands that learn to build and direct digital personas in 2025 will own distribution advantages that are structurally hard to replicate.
-
 **The uncanny valley problem — and how to avoid it**
 
 The uncanny valley is the psychological discomfort triggered when a synthetic human looks almost real but falls short in ways the brain cannot consciously articulate. Eyes that do not quite track. Skin that lacks micro-texture. Movement that is smooth but wrong. The brain pattern-matches to illness, deception, or death.
@@ -270,6 +266,15 @@ Music direction markers:
 - "Clean tech-house pulse at low level, provides forward momentum without distraction"
 
 **Sound design principle for AI avatars:** sound should feel designed, not organic. Real-world ambience (birds, traffic, HVAC) undermines the digital world effect. Every sonic element should feel intentional and synthetic.
+
+---
+
+## Platform Optimization
+
+- **TikTok (9:16):** High energy, fast cuts acceptable. Stylized 3D or 2D avatars perform best. Keep under 15s.
+- **Instagram Reels (9:16):** Higher visual polish expected. Photorealistic avatars work well here. Cover frame must show avatar clearly.
+- **YouTube (16:9):** Longer format, more room for establishing shots. Enterprise/educational use cases.
+- **LinkedIn (16:9 or 1:1):** Professional, corporate-appropriate. Photorealistic only. Subtle animation, minimal visual effects.
 
 ---
 

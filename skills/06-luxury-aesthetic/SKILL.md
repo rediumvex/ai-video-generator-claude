@@ -5,8 +5,6 @@ description: Generate luxury and premium aesthetic video prompts for Seedance 2.
 
 # Luxury Aesthetic — Premium Brand Video Prompts
 
-A specialized prompt framework for generating luxury and premium visual content on Seedance 2.0 (Higgsfield). Every parameter, every word choice, and every camera instruction in this guide serves one purpose: communicate value through restraint.
-
 ---
 
 ## 1. Input Specifications
@@ -29,32 +27,25 @@ A specialized prompt framework for generating luxury and premium visual content 
 
 ---
 
+## Material References
+
+- **Images:** Up to 9 — product photos, material swatches, brand mood boards, environment references
+- **Videos:** Up to 3 — existing brand footage, texture references, motion references
+- **Audio:** Up to 3 — brand music, ambient sound, ASMR material textures
+- **Reference syntax:** `@material[name]` within prompts
+- **Output:** 4-15 seconds, 720p with synchronized audio
+
+---
+
 ## 2. Philosophy: The Visual Language of Luxury
 
-Luxury in motion is not about showing more. It is about showing less, and showing it perfectly.
-
-**Core principles:**
-
-**Less Is More**
-Every element on screen must earn its place. A single object in an empty room communicates authority. A cluttered frame communicates insecurity. Remove everything that does not serve the subject.
-
-**Negative Space as Subject**
-The space around an object is not empty — it is weight, breath, and value. A watch floating in cream-white negative space says the same thing as a price tag. Train your prompts to name the silence.
-
-**Slow Movement as Confidence**
-Fast cuts signal urgency. Urgency implies scarcity or fear. Luxury implies abundance of time. Camera movements in luxury content are slow, deliberate, and never rushed. A 3-second push-in that covers 8cm of screen distance is appropriate. A whip-pan is not.
-
-**Restraint in Color**
-Desaturated tones, near-monochromes, and tightly controlled palettes communicate control and intention. Wild color variation reads as noise. Luxury palettes are chosen, not found.
-
-**Material Honesty**
-Let materials speak. The grain of leather, the give of silk, the cold weight of marble — these are what justify the price. Macro and close-up shots that reveal texture are among the most effective moves in luxury filmmaking.
-
-**Silence as Design**
-Sound design in luxury is as much about what is absent as what is present. The ASMR texture of a zipper, the soft placement of crystal on stone, low strings fading to nothing — these are luxury sonic signatures.
-
-**The Unhurried Edit**
-Luxury content breathes. Hold shots longer than feels comfortable. Let the tail of a movement settle before cutting. If it feels too slow, it is probably correct.
+- **Less Is More:** Every element earns its place. One object, one room. Clutter signals insecurity.
+- **Negative Space:** 40-60% of frame empty. Never fill the void.
+- **Slow Movement:** Camera at 0.1x-0.3x speed only. A whip-pan is never luxury.
+- **Restraint in Color:** Desaturated, near-monochrome, tightly controlled palettes. Wild color = noise.
+- **Material Honesty:** Macro the grain, the weave, the veining. The material IS the product.
+- **Silence as Design:** ASMR textures, single notes, and absence. No percussion, no vocals.
+- **The Unhurried Edit:** Hold shots longer than comfortable. If it feels too slow, it is correct.
 
 ---
 
@@ -317,6 +308,8 @@ Color grade: cream highlight roll, deep warm shadow, metallic accent preservatio
 
 No motion blur. No depth of field effect — watch in full sharp focus front to back. No camera shake. No text or graphics.
 
+Sound: silence for first 2s. At 2s: single soft mechanical tick. Tick repeats every 1s. No music. The silence IS the luxury.
+
 Aspect ratio: 9:16. Duration: 5 seconds.
 ```
 
@@ -413,8 +406,8 @@ Every luxury prompt must include a color grade directive. Do not leave it to mod
 **Rule 9: Sound belongs in the brief.**
 Even if final audio will be added in post, include a sound direction note in every prompt. It shapes how the visual composition is conceived and confirms that silence, texture, and atmosphere are intentional.
 
-**Rule 10: If it needs explaining, it isn't luxury.**
-If you find yourself writing "this represents quality" or "this shows exclusivity" — delete it. Show the thing. Let the grain of the leather and the depth of the shadow do the explaining.
+**Rule 10: Never write abstract quality words (premium, luxury, high-end).**
+Describe the specific material, light, and movement instead.
 
 ---
 

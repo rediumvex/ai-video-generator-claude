@@ -5,8 +5,6 @@ description: Generate faceless content video prompts for Seedance 2.0 on Higgsfi
 
 # Faceless Channel — No-Camera Content Video Prompts
 
-Generate Seedance 2.0 prompts optimized for faceless content: YouTube channels, TikToks, Reels, and any format where the creator never appears on camera. Every prompt is crafted for maximum visual engagement without a talking head.
-
 ---
 
 ## Input Specs — Seedance 2.0 Format
@@ -32,23 +30,11 @@ Each prompt block should be 15–25 lines covering: scene, camera, lighting, tim
 
 ---
 
-## Philosophy: Why Faceless Content Works
+## Three Laws of Faceless Content
 
-Faceless content removes the single largest barrier to starting a channel: showing yourself. But beyond convenience, it unlocks a distinct visual grammar that talking-head content cannot access.
-
-**What replaces the face:**
-
-- **Environmental storytelling** — The world itself becomes the narrator. A crumbling building says more than a person saying "things fell apart."
-- **Abstract metaphor** — Numbers, particles, fluid simulations, and data visualizations explain concepts at a speed no human gesture can match.
-- **Scale and grandeur** — Aerial shots, macro photography, and time-lapses create awe that a 1080p webcam cannot compete with.
-- **Rhythm and music lock** — Without a talking head locking cadence, every cut can sync to the beat. The video breathes with the audio.
-- **Anonymity as brand** — Mystery drives retention. Viewers who don't know who you are stay longer trying to figure out the angle.
-
-**The three laws of faceless visual engagement:**
-
-1. **Never let the screen rest.** Every second needs motion — camera, subject, or both. Static b-roll kills faceless content.
-2. **The first frame is the thumbnail.** Faceless videos compete on visual intrigue alone in the feed. The opening shot must be arresting.
-3. **Lighting is character.** Without a face to read, the emotional layer comes entirely from color temperature, contrast, and shadow. Treat lighting as a performance.
+1. **Never let the screen rest.** Every second needs motion — camera, subject, or both.
+2. **The first frame is the thumbnail.** The opening shot must be arresting on its own.
+3. **Lighting is character.** Without a face, emotion comes from color temperature, contrast, and shadow.
 
 ---
 
@@ -110,8 +96,6 @@ The first 2 seconds determine whether the viewer swipes. Use one of these four p
 ---
 
 ## Camera Movement Library
-
-In faceless content, camera movement carries the entire emotional arc. No talking head means every movement is expressive, not just functional.
 
 ### Push & Pull
 - **Slow push-in (8–10s):** Creates building tension. Use for reveals and escalating narration.
@@ -276,6 +260,41 @@ Entirely practical and environmental. Desk lamp at 2700K (orange-warm). Pre-dawn
 
 SOUND DIRECTION (music-first):
 Music: lo-fi piano, slow tempo, no drums, prominent vinyl crackle. Ambient SFX layer: coffee steam sizzle (barely audible, 5% volume), distant birds beginning at 0:06, wind trace from 0:09. No narration. No voice. The silence should feel like 5am — the world not yet awake.
+```
+
+---
+
+## Quick Reference Skeleton
+
+```
+TOPIC: [subject]
+PLATFORM: [TikTok 9:16 / YouTube 16:9 / Reels 9:16]
+DURATION: [4s / 8s / 10s]
+STYLE: [cinematic b-roll / motion graphics / ambient / documentary]
+
+HOOK (0-2s):
+[Hook pattern] — [opening frame description]
+Camera: [movement + speed]
+Sound: [impact layer]
+
+BEAT 1 (2-Xs):
+[Scene description]
+Camera: [movement]
+Lighting: [setup]
+Sound: [layer]
+
+BEAT 2 (X-Ys):
+[Scene description]
+Camera: [movement]
+Lighting: [shift if any]
+Sound: [layer]
+
+CLOSE (final 1-2s):
+[Resolution frame]
+Camera: [settling movement]
+Sound: [resolution]
+
+MATERIAL REFS: @image1 [what], @video1 [what], @audio1 [what]
 ```
 
 ---
