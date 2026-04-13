@@ -1,114 +1,145 @@
-<p align="center">
-  <strong>Seedance 2.0 Creator Skills</strong><br>
-  <em>10 AI Video Prompt Engineering Skills for Creators & Business Owners</em>
-</p>
+# AI Video Generator — Claude Skill
 
-<p align="center">
-  <a href="https://higgsfield.ai/create/video?model=seedance_2_0">Create Video</a> ·
-  <a href="https://knoxhub.io/hub">Knox Hub</a> ·
-  <a href="https://instagram.com/roman.knox">@roman.knox</a>
-</p>
+> **10 prompt engineering skills that turn Claude into a cinematic video director for Seedance 2.0 on Higgsfield.** You describe an idea — the skill architects a 15-25 line production-grade prompt with exact timing, camera angles, lighting setup, and sound design. Paste into Higgsfield, get studio-quality video.
+
+**This is the actual skill set I use to generate every AI video for [@roman.knox](https://instagram.com/roman.knox) (280K+ followers) and [knoxhub.io](https://knoxhub.io).** Not templates. Not "try this prompt." The real production pipeline — copied straight from my `~/.claude/skills/`.
 
 ---
 
-# What Is This?
+## What it does
 
-10 battle-tested prompt engineering skills built for **Seedance 2.0 on Higgsfield**. Each skill turns your AI into a specialized video prompt architect for a specific business use case — generating detailed, paste-ready prompts with built-in retention mechanics.
+You give it a concept — "10s product launch video, dark UI, minimal" — and it gives you back:
 
-These aren't generic prompts. They are **structured frameworks** that encode the physics of attention, platform algorithms, and conversion psychology directly into every generated prompt.
+- **Complete Seedance 2.0 prompt** — 15-25 lines, paste-ready, with timestamps for every second
+- **2-second hook engineering** — 10+ scroll-stopping patterns per style (pattern interrupt, curiosity gap, dopamine trigger)
+- **Camera movement direction** — 15+ techniques with exact phrasing Seedance 2.0 understands (dolly, orbit, whip pan, snap zoom, rack focus)
+- **Lighting & mood presets** — three-point, neon contrast, silhouette, golden hour, practical lights
+- **Sound design layers** — ambient + impact + music + voice, synced to visual beats
+- **Platform optimization** — TikTok, Instagram Reels, YouTube Shorts, LinkedIn — aspect ratio, safe zones, loop potential
+- **Material references** — tells you exactly where to use `@image1`, `@video1`, `@audio1`
 
-**Built for creators, founders, and marketers** who need studio-quality video without a studio.
+One idea in, finished video prompt out.
 
 ---
 
-## The 10 Skills
+## The 10 skills
 
-### Short-Form & Viral
-
-| # | Skill | Use Case |
+### For views
+| # | Skill | What it generates |
 |---|---|---|
-| 01 | [Viral Hook](skills/01-viral-hook/SKILL.md) | Scroll-stopping openers — pattern interrupts, curiosity loops, dopamine triggers |
-| 05 | [Faceless Channel](skills/05-faceless-channel/SKILL.md) | Faceless content for YouTube, TikTok, Reels — no camera, no face, all views |
-| 10 | [Podcast Visual](skills/10-podcast-visual/SKILL.md) | Transform audio clips into cinematic visual stories |
+| 01 | **Viral Hook** | Scroll-stopping openers — pattern interrupts, curiosity loops, dopamine triggers |
+| 05 | **Faceless Channel** | No face, no camera content for YouTube, TikTok, Reels |
+| 10 | **Podcast Visual** | Turns any audio clip into cinematic video — kills the audiogram |
 
-### Business & SaaS
-
-| # | Skill | Use Case |
+### For business
+| # | Skill | What it generates |
 |---|---|---|
-| 02 | [SaaS Launch](skills/02-saas-launch/SKILL.md) | Product launches, feature demos, app walkthroughs |
-| 04 | [Course Promo](skills/04-course-promo/SKILL.md) | Online course trailers, coaching program ads, edu-content |
-| 08 | [Testimonial Story](skills/08-testimonial-story/SKILL.md) | Customer stories, case studies, social proof videos |
+| 02 | **SaaS Launch** | Product videos that look like an Apple keynote |
+| 04 | **Course Promo** | Trailers that sell out coaching programs and courses |
+| 08 | **Testimonial Story** | Social proof videos that actually convert |
 
-### Personal Brand & Aesthetic
-
-| # | Skill | Use Case |
+### For brand
+| # | Skill | What it generates |
 |---|---|---|
-| 03 | [Personal Brand](skills/03-personal-brand/SKILL.md) | Founder stories, day-in-the-life, authority content |
-| 06 | [Luxury Aesthetic](skills/06-luxury-aesthetic/SKILL.md) | Premium brand content — minimal, elegant, high-end |
-| 07 | [Before-After](skills/07-before-after/SKILL.md) | Transformation reveals — fitness, design, business, glow-ups |
-| 09 | [AI Avatar](skills/09-ai-avatar/SKILL.md) | Digital persona content, AI presenter, virtual spokesperson |
+| 03 | **Personal Brand** | Founder authority content on autopilot |
+| 06 | **Luxury Aesthetic** | Chanel-level video for any brand, zero budget |
+| 07 | **Before-After** | Transformation reveals that get saved and shared |
+| 09 | **AI Avatar** | Digital persona content at scale |
 
 ---
 
-## What Each Skill Contains
+## Why "write me a cool video" doesn't work
 
-- **2-Second Hook Framework** — 10+ attention-capture patterns per style
-- **Timeline Architecture** — beat-by-beat breakdown for 4-15s clips
-- **Camera Movement Library** — 15+ techniques with exact Seedance 2.0 phrasing
-- **Lighting & Mood Presets** — setups that communicate brand and emotion
-- **Sound Design Strategy** — ambient, music, silence, ASMR layering
-- **Material Reference System** — `@image1` `@video1` `@audio1` best practices
-- **Platform Optimization** — TikTok, Instagram, YouTube, LinkedIn tuning
-- **5+ Production-Ready Example Prompts** — 15-25 lines each, paste-and-go
+Most people write 2-line prompts and get generic output. Seedance 2.0 is a precision engine — it responds to specific camera language, lighting terminology, and timing breakdowns. Vague input = vague output.
+
+These skills solve that by encoding three things into every prompt:
+
+1. **The physics of attention** — the first 2 seconds determine if 50% of viewers bounce or 90% stay. Every prompt opens with a hook engineered for retention.
+2. **Cinematic vocabulary** — Seedance 2.0 understands "dolly forward 3 feet, f/1.4, rack focus from foreground to background" better than "make it look cinematic."
+3. **Sound-visual sync** — every audio element (bass hit, whoosh, ASMR texture, silence) is timestamped to a visual beat. Sound is 50% of the hook.
+
+The result: prompts that produce studio-quality video instead of generic AI slop.
 
 ---
 
-## Quick Start
-
-### Option 1: Install Script
+## Install
 
 ```bash
-git clone https://github.com/rediumvex/seedance-skills.git
-cd seedance-skills
+# Clone into your Claude skills folder
+cd ~/.claude/skills
+git clone https://github.com/rediumvex/ai-video-generator-claude.git ai-video-generator
+```
+
+Or if you use gstack:
+
+```bash
+cd ~/.claude/skills/gstack
+git clone https://github.com/rediumvex/ai-video-generator-claude.git ai-video-generator
+```
+
+Restart Claude Code. Each skill inside `skills/` is now available.
+
+You can also use the interactive installer:
+
+```bash
+cd ai-video-generator
 chmod +x install.sh
-./install.sh          # Interactive selection
+./install.sh          # Pick which skills to install
 ./install.sh --all    # Install everything
-./install.sh --list   # Preview available skills
-```
-
-### Option 2: Manual
-
-Copy any `SKILL.md` file into your Claude skills directory:
-
-- **macOS:** `~/Library/Application Support/Claude/skills/`
-- **Linux:** `~/.config/Claude/skills/`
-
-### Usage
-
-```
-You: I need a 10s product launch video for my new SaaS app, dark mode UI, minimal aesthetic
-→ Claude generates a complete Seedance 2.0 prompt with hooks, timing, camera, lighting, sound
-→ Paste into Higgsfield → Get studio-quality video
 ```
 
 ---
 
-## Why This Exists
+## Usage
 
-Most people write 2-line prompts and wonder why their AI video looks generic. These skills encode hundreds of hours of prompt engineering research into reusable frameworks. You describe what you want. The skill architects the prompt.
+```
+"I need a 10s product launch video for my SaaS app, dark mode UI, minimal aesthetic"
+→ SaaS Launch skill generates a complete prompt with camera, lighting, sound, timing
 
-The difference between a forgettable video and a viral one is in the engineering.
+"Create a 6s before-after for my client's brand redesign"
+→ Before-After skill builds the contrast arc: cold→warm lighting, gray→saturated color, chaos→order
+
+"Give me a viral TikTok hook for a faceless finance channel"
+→ Viral Hook + Faceless Channel skills combine for a scroll-stopping 2-second opener
+
+"Turn this podcast clip into a cinematic video for Reels"
+→ Podcast Visual skill transforms the audio into visual storytelling with kinetic typography
+```
 
 ---
 
-## Links
+## What's inside each skill
 
-- [Higgsfield — Create Video](https://higgsfield.ai/create/video?model=seedance_2_0)
-- [Knox Hub](https://knoxhub.io/hub)
-- [Instagram @roman.knox](https://instagram.com/roman.knox)
+Every skill is a deep engineering framework, not a prompt template. Each one contains:
+
+- **2-second hook framework** — 10+ attention-capture patterns specific to the style
+- **Timeline architecture** — beat-by-beat breakdown for every second of a 4-15s clip
+- **Camera movement encyclopedia** — 15+ techniques with exact Seedance 2.0 phrasing
+- **Lighting & mood presets** — full setups (key, fill, rim, practical, color temp)
+- **Sound design stack** — 4-layer audio architecture synced to visual beats
+- **Material reference system** — where and how to use `@image1` `@video1` `@audio1`
+- **Platform optimization** — TikTok, Reels, Shorts, YouTube tuning
+- **5+ production-ready example prompts** — 15-25 lines each, ready to paste
+
+---
+
+## Who built this
+
+**Roman Knox** — I build AI products that make money. Not demos.
+
+- 📸 [Instagram — @roman.knox](https://www.instagram.com/roman.knox) (280K+ followers)
+- 🎓 [Knox Community on Skool](https://www.skool.com/knox-community-7232/) — n8n library, Claude skills, cold outreach systems, weekly live sessions
+- 📚 [knoxhub.io](https://knoxhub.io) — guides, templates, articles
+
+### My other Claude skills
+
+- [📝 SEO Blog Writer](https://github.com/rediumvex/seo-blog-writer-claude) — human-sounding blog posts that rank on Google and beat AI detectors
+- [📱 Social Media Caption Generator](https://github.com/rediumvex/social-media-caption-generator-claude) — one prompt → captions for every platform
 
 ---
 
 ## License
 
-MIT License. Use freely. Credit appreciated but not required.
+MIT — Copyright (c) 2026 Roman Knox
+
+A ⭐ on the repo is the best thank-you. It helps other builders find these skills.
